@@ -18,11 +18,7 @@
   "types": "types.d.ts",
   "scripts": {
     "test": "make test",
-    "build": "make build",
-    "prepack": "make build",
-    "postpack": "make clean",
-    "prepublish": "make build",
-    "postpublish": "make clean"
+    "build": "make build"
   },
   "engines": {
     "node": ">= 0.8.x"
